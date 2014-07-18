@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Konfigurasi
+OUTDIR=
+CONFDIR=
+LOGDIR=
+DBDIR=
+
+RARGS='--outdir $OUTDIR --confdir $CONFDIR --logdir $LOGDIR --dbdir $DBDIR'
+
+reprepro $RARGS includedeb suroboyo-peladen $1

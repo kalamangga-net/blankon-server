@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for i in `ls *.deb`;
+do
+ include-deb $i;
+done

@@ -1,0 +1,4 @@
+Suite: suroboyo-peladen
+Codename: suroboyo-peladen
+Architectures: amd64 i386
+Components: main
